@@ -1,5 +1,19 @@
 # xmltodict
 
+<!-- vim-markdown-toc GFM -->
+
+* [Namespace support](#namespace-support)
+* [Streaming mode](#streaming-mode)
+* [Roundtripping](#roundtripping)
+* [Ok, how do I get it?](#ok-how-do-i-get-it)
+    * [Using pypi](#using-pypi)
+    * [RPM-based distro (Fedora, RHEL, …)](#rpm-based-distro-fedora-rhel-)
+    * [Arch Linux](#arch-linux)
+    * [Debian-based distro (Debian, Ubuntu, …)](#debian-based-distro-debian-ubuntu-)
+    * [FreeBSD](#freebsd)
+* [Wiki](#wiki)
+
+<!-- vim-markdown-toc -->
 `xmltodict` is a Python module that makes working with XML feel like you are working with [JSON](http://docs.python.org/library/json.html), as in this ["spec"](http://www.xml.com/pub/a/2006/05/31/converting-between-xml-and-json.html):
 
 [![Build Status](https://secure.travis-ci.org/martinblech/xmltodict.svg)](http://travis-ci.org/martinblech/xmltodict)
@@ -204,3 +218,7 @@ There is an [official FreeBSD port for xmltodict](https://svnweb.freebsd.org/por
 ```sh
 $ pkg install py36-xmltodict
 ```
+## Wiki
+
+[学习 wiki](https://github.com/meetbill/xmltodict/wiki)
+
